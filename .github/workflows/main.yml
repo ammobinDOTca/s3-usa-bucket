@@ -1,0 +1,37 @@
+name: generate and upload
+
+on:  
+  schedule:
+  - cron: "0 15 * * *"
+  issue_comment:
+    types: [created, deleted, edited]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Run a one-line script
+      run: echo Hello, world mmm!
+    - name: NodeJS Action Template
+      uses: bitoiu/node-js-action-template@v1.0
+    - name: Run a multi-line script
+      run: |
+        git clone https://github.com/ammobinDOTca/ammobin-client.git
+        cd ammobin-client
+        npm i
+        npm run generate:us
+        cp -r dist/* ../ 
+        
+    - name: Deploy
+      if: success()
+      uses: crazy-max/ghaction-github-pages@v1
+      with:
+        target_branch: gh-pages
+        build_dir: ammobin-client/dist
+        keep_history: true
+        fqdn: client.github.ammobin.us
+      env:
+        GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
