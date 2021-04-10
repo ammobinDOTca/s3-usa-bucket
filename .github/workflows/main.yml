@@ -34,4 +34,4 @@ jobs:
         keep_history: true
         fqdn: client.github.ammobin.us
       env:
-        GITHUB_PAT: ${{ secrets.GITHUB_PAT }}
+        GITHUB_PAT: ${{ secrets.RARR }}
