@@ -1,5 +1,24 @@
 /*!
- * @nuxt/vue-app v2.15.4 (c) 2016-2021
+  * vue-router v3.5.2
+  * (c) 2021 Evan You
+  * @license MIT
+  */
+
+/*!
+ * Vue.js v2.6.14
+ * (c) 2014-2021 Evan You
+ * Released under the MIT License.
+ */
+
+/*!
+ * vuex v3.6.2
+ * (c) 2021 Evan You
+ * @license MIT
+ */
+
+
+/*!
+ * @nuxt/vue-app v2.15.7 (c) 2016-2021
  * Released under the MIT License
  * Repository: https://github.com/nuxt/nuxt.js
  * Website: https://nuxtjs.org
@@ -7,7 +26,40 @@
 
 
 /*!
- * @nuxt/vue-app v2.15.4 (c) 2016-2021
+ * vue-client-only v0.0.0-semantic-release
+ * (c) 2021-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */
+
+/*!
+ * vue-i18n v8.25.0 
+ * (c) 2021 kazuya kawaguchi
+ * Released under the MIT License.
+ */
+
+/*!
+ * vue-no-ssr v1.1.1
+ * (c) 2018-present egoist <0x142857@gmail.com>
+ * Released under the MIT License.
+ */
+
+/**
+  * vue-class-component v7.2.6
+  * (c) 2015-present Evan You
+  * @license MIT
+  */
+
+
+/*!
+ * @nuxt/vue-app v2.15.7 (c) 2016-2021
+ * Released under the MIT License
+ * Repository: https://github.com/nuxt/nuxt.js
+ * Website: https://nuxtjs.org
+*/
+
+
+/*!
+ * @nuxt/vue-app v2.15.7 (c) 2016-2021
  * Released under the MIT License
  * Repository: https://github.com/nuxt/nuxt.js
  * Website: https://nuxtjs.org
@@ -114,55 +166,3 @@
  *                        // true  = throw errors
  * }
  */
-
-
-/*!
-  * vue-router v3.5.1
-  * (c) 2021 Evan You
-  * @license MIT
-  */
-
-/*!
- * Vue.js v2.6.12
- * (c) 2014-2020 Evan You
- * Released under the MIT License.
- */
-
-/*!
- * vuex v3.6.2
- * (c) 2021 Evan You
- * @license MIT
- */
-
-
-/*!
- * @nuxt/vue-app v2.15.4 (c) 2016-2021
- * Released under the MIT License
- * Repository: https://github.com/nuxt/nuxt.js
- * Website: https://nuxtjs.org
-*/
-
-
-/*!
- * vue-client-only v2.0.0
- * (c) 2019-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */
-
-/*!
- * vue-i18n v8.22.4 
- * (c) 2021 kazuya kawaguchi
- * Released under the MIT License.
- */
-
-/*!
- * vue-no-ssr v1.1.1
- * (c) 2018-present egoist <0x142857@gmail.com>
- * Released under the MIT License.
- */
-
-/**
-  * vue-class-component v7.2.6
-  * (c) 2015-present Evan You
-  * @license MIT
-  */
